@@ -1,0 +1,23 @@
+﻿<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>403fbd8a-d4a8-42f2-97d4-2ca75650f907</UserSecretsId>
+	<EnableSdkContainerSupport>true</EnableSdkContainerSupport>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiService\ApiService.csproj" />
+    <ProjectReference Include="..\Web\Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.Docker" Version="13.1.0-preview.1.25616.3" />
+    <PackageReference Include="Aspire.Hosting.Kubernetes" Version="13.1.0-preview.1.25616.3" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="13.1.0" />
+  </ItemGroup>
+
+</Project>

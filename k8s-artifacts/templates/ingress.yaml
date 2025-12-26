@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: minha-app-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: / #controla a rescrita da uri 
+    nginx.ingress.kubernetes.io/load-balance: "round_robin"
+spec:
+  ingressClassName: nginx
+  rules:
+  - http:
+      paths: # O campo 'paths' deve estar indentado dentro de 'http'
+      - path: /api
+        pathType: Prefix
+        backend:
+          service:
+            name: apiservice-service
+            port:
+              number: 8080
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: webfrontend-service
+            port:
+              number: 8081

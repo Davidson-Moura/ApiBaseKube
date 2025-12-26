@@ -1,0 +1,35 @@
+parameters:
+  apiservice:
+    port_http: 8080
+    port_https: 8083
+    apiservice_image: "apiservice:latest"
+  webfrontend:
+    port_http: 8081
+    port_https: 8082
+    webfrontend_image: "webfrontend:latest"
+
+ingress:
+  enabled: true
+  className: nginx
+  host: aspire.local
+  
+secrets:
+  cache:
+    REDIS_PASSWORD: "MinhaSenhaRedis"
+  apiservice:
+    cache_password: "MinhaSenhaRedis"
+  webfrontend:
+    cache_password: "MinhaSenhaRedis"
+config:
+  apiservice:
+    OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES: "true"
+    OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES: "true"
+    OTEL_DOTNET_EXPERIMENTAL_OTLP_RETRY: "in_memory"
+    ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+  webfrontend:
+    OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES: "true"
+    OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES: "true"
+    OTEL_DOTNET_EXPERIMENTAL_OTLP_RETRY: "in_memory"
+    ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+    CACHE_HOST: "cache-service"
+    CACHE_PORT: 6379
