@@ -1,47 +1,45 @@
+using Microsoft.AspNetCore.Localization;
+using ApiService.Definitions;
+using Common.Messages;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add service defaults & Aspire client integrations.
-builder.AddServiceDefaults();
-
-// Add services to the container.
-builder.Services.AddProblemDetails();
-
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+Setup.ConfigServices(builder);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 app.UseExceptionHandler();
+app.UseMiddleware<UnitOfWorkMiddleware>();
 
-if (app.Environment.IsDevelopment())
+var localizationOptions = new RequestLocalizationOptions
 {
-    app.MapOpenApi();
-}
+    DefaultRequestCulture = new RequestCulture("pt-BR"),
+    SupportedCultures = SMessage.SupportedCultures,
+    SupportedUICultures = SMessage.SupportedCultures
+};
 
-string[] summaries = ["Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"];
+app.UseRequestLocalization(localizationOptions);
 
-app.MapGet("/", () => "API service is running. Navigate to /weatherforecast to see sample data.");
-
-app.MapGet("/weatherforecast", () =>
+app.UseSwagger(c =>
 {
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+    c.RouteTemplate = "documentation/{documentName}/swagger.json";
+});
+app.UseSwaggerUI(c =>
+{
+    c.RoutePrefix = "documentation";
+    c.SwaggerEndpoint("/documentation/v1/swagger.json", "Api Service v1");
 
-app.MapDefaultEndpoints();
+    c.DocumentTitle = "Api Service - Documentação";
+    c.DefaultModelsExpandDepth(-1); // Oculta schemas
+    c.DisplayRequestDuration();
+    c.EnableDeepLinking();
+});
+
+app.UseHttpLogging();
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllers();
+app.MapHealthChecks("/health").AllowAnonymous();
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

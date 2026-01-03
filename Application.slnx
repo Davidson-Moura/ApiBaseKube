@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="ApiService/ApiService.csproj" />
   <Project Path="AppHost/AppHost.csproj" />
+  <Project Path="Common/Common.csproj" Id="bd047d31-ba66-4b0d-a04c-caa6f8976c44" />
   <Project Path="ServiceDefaults/ServiceDefaults.csproj" />
   <Project Path="Tests/Tests.csproj" />
   <Project Path="Web/Web.csproj" />

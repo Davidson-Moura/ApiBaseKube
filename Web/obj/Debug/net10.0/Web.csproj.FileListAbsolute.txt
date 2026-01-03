@@ -100,8 +100,6 @@ C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\compressed\prox3i9
 C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\compressed\uxr18qbbpx-{0}-2pkl720l1c-2pkl720l1c.gz
 C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\compressed\dvmvd6hs63-{0}-wmp8iwak4q-wmp8iwak4q.gz
 C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\compressed\9dvhe18ksu-{0}-2lgipwaf5j-2lgipwaf5j.gz
-C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\compressed\w0u4xjpyxz-{0}-lhc5nqmjtw-lhc5nqmjtw.gz
-C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\compressed\k89rhi3gy1-{0}-lhc5nqmjtw-lhc5nqmjtw.gz
 C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\staticwebassets.development.json
@@ -114,3 +112,5 @@ C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\refint\Web.dll
 C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\Web.pdb
 C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\Web.genruntimeconfig.cache
 C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\ref\Web.dll
+C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\compressed\w0u4xjpyxz-{0}-5jtldcmxw2-5jtldcmxw2.gz
+C:\Users\miste\source\testes\AspireTest\Web\obj\Debug\net10.0\compressed\k89rhi3gy1-{0}-5jtldcmxw2-5jtldcmxw2.gz

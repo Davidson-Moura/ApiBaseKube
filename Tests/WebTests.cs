@@ -1,6 +1,7 @@
 using Microsoft.Extensions.Logging;
+using System.Security.Cryptography;
 
-namespace .Tests;
+namespace Tests;
 
 public class WebTests
 {
@@ -12,7 +13,7 @@ public class WebTests
         // Arrange
         var cancellationToken = TestContext.CurrentContext.CancellationToken;
 
-        var appHost = await DistributedApplicationTestingBuilder.CreateAsync<Projects._AppHost>(cancellationToken);
+        var appHost = await DistributedApplicationTestingBuilder.CreateAsync<Projects.ApiService>(cancellationToken);
         appHost.Services.AddLogging(logging =>
         {
             logging.SetMinimumLevel(LogLevel.Debug);
@@ -35,5 +36,14 @@ public class WebTests
 
         // Assert
         Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+    }
+    [Test]
+    public async Task GenerateKey()
+    {
+        //var bytes = RandomNumberGenerator.GetBytes(32);
+        //var secretKey = Convert.ToBase64String(bytes);
+
+        var keyBytes = RandomNumberGenerator.GetBytes(64);
+        var secretKey = Convert.ToBase64String(keyBytes);
     }
 }
