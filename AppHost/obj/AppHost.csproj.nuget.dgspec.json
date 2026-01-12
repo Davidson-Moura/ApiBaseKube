@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miste\\source\\testes\\AspireTest\\AppHost\\AppHost.csproj": {}
+    "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\AppHost\\AppHost.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miste\\source\\testes\\AspireTest\\AppHost\\AppHost.csproj": {
+    "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\AppHost\\AppHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miste\\source\\testes\\AspireTest\\AppHost\\AppHost.csproj",
+        "projectUniqueName": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\AppHost\\AppHost.csproj",
         "projectName": "AppHost",
-        "projectPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\AppHost\\AppHost.csproj",
+        "projectPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\AppHost\\AppHost.csproj",
         "packagesPath": "C:\\Users\\miste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\AppHost\\obj\\",
+        "outputPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\AppHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

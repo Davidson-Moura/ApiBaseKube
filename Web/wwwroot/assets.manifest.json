@@ -1,0 +1,153 @@
+{
+  "_VCard-DbBhv8XL.js": {
+    "file": "assets/VCard-DbBhv8XL.js",
+    "name": "VCard",
+    "imports": [
+      "index.html"
+    ],
+    "css": [
+      "assets/VCard-mnRJHs2h.css"
+    ]
+  },
+  "_VCard-mnRJHs2h.css": {
+    "file": "assets/VCard-mnRJHs2h.css",
+    "src": "_VCard-mnRJHs2h.css"
+  },
+  "_VForm-CBz1L2Tl.js": {
+    "file": "assets/VForm-CBz1L2Tl.js",
+    "name": "VForm",
+    "imports": [
+      "index.html",
+      "_VTextField-BQLWiT8M.js"
+    ]
+  },
+  "_VRow-CNtGEtfc.js": {
+    "file": "assets/VRow-CNtGEtfc.js",
+    "name": "VRow",
+    "imports": [
+      "_VCard-DbBhv8XL.js",
+      "index.html"
+    ]
+  },
+  "_VTextField-BQLWiT8M.js": {
+    "file": "assets/VTextField-BQLWiT8M.js",
+    "name": "VTextField",
+    "imports": [
+      "index.html"
+    ],
+    "css": [
+      "assets/VTextField-Bdl_S1Ue.css"
+    ]
+  },
+  "_VTextField-Bdl_S1Ue.css": {
+    "file": "assets/VTextField-Bdl_S1Ue.css",
+    "src": "_VTextField-Bdl_S1Ue.css"
+  },
+  "_webfontloader-0QRi8WEX.js": {
+    "file": "assets/webfontloader-0QRi8WEX.js",
+    "name": "webfontloader",
+    "isDynamicEntry": true
+  },
+  "index.html": {
+    "file": "assets/index-CDg5AEKA.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "_webfontloader-0QRi8WEX.js",
+      "src/layouts/default/Default.vue",
+      "src/views/Login.vue",
+      "src/views/security/AdminLoginView.vue",
+      "src/views/AppDefault.vue",
+      "src/views/Home.vue"
+    ],
+    "css": [
+      "assets/index-UP_TJUgU.css"
+    ],
+    "assets": [
+      "assets/materialdesignicons-webfont-CSr8KVlo.eot",
+      "assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+      "assets/materialdesignicons-webfont-PXm3-2wK.woff",
+      "assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+    ]
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot": {
+    "file": "assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf": {
+    "file": "assets/materialdesignicons-webfont-B7mPwVP_.ttf",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff": {
+    "file": "assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff"
+  },
+  "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2": {
+    "file": "assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "src": "node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2"
+  },
+  "src/layouts/default/Default.vue": {
+    "file": "assets/Default-BACkqTCf.js",
+    "name": "Default",
+    "src": "src/layouts/default/Default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_VCard-DbBhv8XL.js",
+      "_VTextField-BQLWiT8M.js"
+    ],
+    "css": [
+      "assets/Default-znl-oj3Z.css"
+    ]
+  },
+  "src/views/AppDefault.vue": {
+    "file": "assets/AppDefault-B8rPkEuE.js",
+    "name": "AppDefault",
+    "src": "src/views/AppDefault.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/views/Home.vue": {
+    "file": "assets/Home-XEJQGjN7.js",
+    "name": "Home",
+    "src": "src/views/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_VCard-DbBhv8XL.js",
+      "_VRow-CNtGEtfc.js"
+    ],
+    "css": [
+      "assets/Home-DLp0ydj3.css"
+    ]
+  },
+  "src/views/Login.vue": {
+    "file": "assets/Login-Dner4Xsj.js",
+    "name": "Login",
+    "src": "src/views/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_VRow-CNtGEtfc.js",
+      "_VCard-DbBhv8XL.js",
+      "_VForm-CBz1L2Tl.js",
+      "_VTextField-BQLWiT8M.js"
+    ]
+  },
+  "src/views/security/AdminLoginView.vue": {
+    "file": "assets/AdminLoginView-pHEdGwlp.js",
+    "name": "AdminLoginView",
+    "src": "src/views/security/AdminLoginView.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_VCard-DbBhv8XL.js",
+      "_VForm-CBz1L2Tl.js",
+      "_VTextField-BQLWiT8M.js",
+      "_VRow-CNtGEtfc.js"
+    ]
+  }
+}

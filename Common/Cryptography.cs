@@ -1,4 +1,5 @@
 ﻿using System.Security.Cryptography;
+using System.Globalization;
 using System.Text;
 
 namespace Common
@@ -11,17 +12,24 @@ namespace Common
         public static void SetShortKey(string key ) => _shortKey = key;
         public static string HashPassword(string password)
         {
-            byte[] salt = RandomNumberGenerator.GetBytes(16);
+            const int iterations = 100_000;
+            const int saltSize = 16;
+            const int hashSize = 32;
 
-            using var pbkdf2 = new Rfc2898DeriveBytes(
-                password,
-                salt,
-                100_000,
-                HashAlgorithmName.SHA256);
+            byte[] salt = RandomNumberGenerator.GetBytes(saltSize);
 
-            byte[] hash = pbkdf2.GetBytes(32);
+            byte[] hash = Rfc2898DeriveBytes.Pbkdf2(
+                password: password,
+                salt: salt,
+                iterations: iterations,
+                hashAlgorithm: HashAlgorithmName.SHA256,
+                outputLength: hashSize
+            );
 
-            return $"100000.{Convert.ToBase64String(salt)}.{Convert.ToBase64String(hash)}";
+            return string.Create(
+                CultureInfo.InvariantCulture,
+                $"{iterations}.{Convert.ToBase64String(salt)}.{Convert.ToBase64String(hash)}"
+            );
         }
         public static bool VerifyPassword(string password, string storedHash)
         {
@@ -31,13 +39,13 @@ namespace Common
             byte[] salt = Convert.FromBase64String(parts[1]);
             byte[] storedHashBytes = Convert.FromBase64String(parts[2]);
 
-            using var pbkdf2 = new Rfc2898DeriveBytes(
-                password,
-                salt,
-                iterations,
-                HashAlgorithmName.SHA256);
-
-            byte[] computedHash = pbkdf2.GetBytes(32);
+            byte[] computedHash = Rfc2898DeriveBytes.Pbkdf2(
+                password: password,
+                salt: salt,
+                iterations: iterations,
+                hashAlgorithm: HashAlgorithmName.SHA256,
+                outputLength: storedHashBytes.Length
+            );
 
             return CryptographicOperations.FixedTimeEquals(
                 storedHashBytes,
@@ -128,30 +136,49 @@ namespace Common
             try
             {
                 var path = Path.GetDirectoryName(fileName);
-                var outputFile = Path.Combine(path, Path.GetFileNameWithoutExtension(fileName) + ".lic");
-                File.Create(outputFile).Close();
-                UnicodeEncoding UE = new UnicodeEncoding();
-                byte[] key = UE.GetBytes(_shortKey);
+                if (string.IsNullOrEmpty(path))
+                    return Array.Empty<byte>();
 
-                string cryptFile = outputFile;
-                FileStream fsCrypt = new FileStream(cryptFile, FileMode.Create);
+                var outputFile = Path.Combine(
+                    path,
+                    Path.GetFileNameWithoutExtension(fileName) + ".lic"
+                );
 
-                RijndaelManaged RMCrypto = new RijndaelManaged();
+                byte[] salt = RandomNumberGenerator.GetBytes(16);
 
-                CryptoStream cs = new CryptoStream(fsCrypt,
-                    RMCrypto.CreateEncryptor(key, key),
-                    CryptoStreamMode.Write);
+                byte[] key = Rfc2898DeriveBytes.Pbkdf2(
+                    password: _shortKey,
+                    salt: salt,
+                    iterations: 100_000,
+                    hashAlgorithm: HashAlgorithmName.SHA256,
+                    outputLength: 32 // AES-256
+                );
 
-                FileStream fsIn = new FileStream(fileName, FileMode.Open);
+                byte[] iv = RandomNumberGenerator.GetBytes(16);
 
-                int data;
-                while ((data = fsIn.ReadByte()) != -1)
-                    cs.WriteByte((byte)data);
+                using FileStream fsOut = new FileStream(outputFile, FileMode.Create, FileAccess.Write);
 
+                fsOut.Write(salt, 0, salt.Length);
+                fsOut.Write(iv, 0, iv.Length);
 
-                fsIn.Close();
-                cs.Close();
-                fsCrypt.Close();
+                using Aes aes = Aes.Create();
+                aes.Key = key;
+                aes.IV = iv;
+                aes.Mode = CipherMode.CBC;
+                aes.Padding = PaddingMode.PKCS7;
+
+                using CryptoStream cs = new CryptoStream(
+                    fsOut,
+                    aes.CreateEncryptor(),
+                    CryptoStreamMode.Write
+                );
+
+                using FileStream fsIn = new FileStream(fileName, FileMode.Open, FileAccess.Read);
+
+                fsIn.CopyTo(cs);
+
+                cs.FlushFinalBlock();
+
                 return File.ReadAllBytes(outputFile);
             }
             catch
@@ -211,7 +238,7 @@ namespace Common
                 RMCrypto.CreateDecryptor(key, key),
                 CryptoStreamMode.Read);
 
-            var outputFile = Path.Combine(Path.GetDirectoryName(fileName)
+            var outputFile = Path.Combine(Path.GetDirectoryName(fileName)!
                 , Path.GetFileNameWithoutExtension(fileName) + ".lic");
             FileStream fsOut = new FileStream(outputFile, FileMode.Create);
 

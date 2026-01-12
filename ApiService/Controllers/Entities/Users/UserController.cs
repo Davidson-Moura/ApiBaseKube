@@ -1,7 +1,8 @@
-﻿using ApiService.Domain.Entities.Users;
+﻿using Microsoft.AspNetCore.Authorization;
+using ApiService.Domain.Entities.Users;
+using ApiService.Domain.Security;
 using Microsoft.AspNetCore.Mvc;
 using ApiService.Models.Users;
-using Microsoft.AspNetCore.Authorization;
 
 namespace ApiService.Controllers.Entities.Users
 {
@@ -16,6 +17,7 @@ namespace ApiService.Controllers.Entities.Users
         }
         [HttpGet]
         [Route("v1")]
+        [Authorize(Policy = nameof(AuthorizationRoleEnum.U_V))]
         public async Task<IActionResult> GetAll(
             [FromQuery] int page = 1, int take = 10, string? search = null
             )
@@ -40,7 +42,8 @@ namespace ApiService.Controllers.Entities.Users
         }
         [HttpGet]
         [Route("{id:guid}/v1")]
-        public async Task<IActionResult> Add(Guid id)
+        [Authorize(Policy = nameof(AuthorizationRoleEnum.U_V))]
+        public async Task<IActionResult> GetByKey(Guid id)
         {
             try
             {
@@ -56,7 +59,7 @@ namespace ApiService.Controllers.Entities.Users
         }
         [HttpPost]
         [Route("v1")]
-        [AllowAnonymous]
+        [Authorize(Policy = nameof(AuthorizationRoleEnum.U_C))]
         public async Task<IActionResult> Add(UserCreateModel user)
         {
             try
@@ -72,6 +75,7 @@ namespace ApiService.Controllers.Entities.Users
         }
         [HttpPatch]
         [Route("v1")]
+        [Authorize(Policy = nameof(AuthorizationRoleEnum.U_U))]
         public async Task<IActionResult> Update(User user)
         {
             try

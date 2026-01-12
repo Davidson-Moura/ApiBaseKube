@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta:properties xmlns:meta="http://schemas.brother.info/ptouch/2007/lbx/meta" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+   <meta:appName>P-touch Editor</meta:appName>
+   <dc:title />
+   <dc:subject />
+   <dc:creator>ADM</dc:creator>
+   <meta:keyword />
+   <dc:description />
+   <meta:template />
+   <dcterms:created>2025-01-27T11:04:35Z</dcterms:created>
+   <dcterms:modified>2025-10-17T09:49:45Z</dcterms:modified>
+   <meta:lastPrinted>2025-10-14T18:45:47Z</meta:lastPrinted>
+   <meta:modifiedBy>ADM</meta:modifiedBy>
+   <meta:revision>3</meta:revision>
+   <meta:editTime>6613</meta:editTime>
+   <meta:numPages>1</meta:numPages>
+   <meta:numWords>0</meta:numWords>
+   <meta:numChars>0</meta:numChars>
+   <meta:security>0</meta:security>
+   <meta:transferScript />
+</meta:properties>

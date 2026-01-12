@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\miste\\source\\testes\\AspireTest\\Web\\Web.csproj": {}
+    "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\miste\\source\\testes\\AspireTest\\ServiceDefaults\\ServiceDefaults.csproj": {
+    "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ServiceDefaults\\ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miste\\source\\testes\\AspireTest\\ServiceDefaults\\ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ServiceDefaults\\ServiceDefaults.csproj",
         "projectName": "ServiceDefaults",
-        "projectPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\ServiceDefaults\\ServiceDefaults.csproj",
+        "projectPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ServiceDefaults\\ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\miste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -516,14 +516,14 @@
         }
       }
     },
-    "C:\\Users\\miste\\source\\testes\\AspireTest\\Web\\Web.csproj": {
+    "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\miste\\source\\testes\\AspireTest\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\miste\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\Web\\obj\\",
+        "outputPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -544,8 +544,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\miste\\source\\testes\\AspireTest\\ServiceDefaults\\ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\ServiceDefaults\\ServiceDefaults.csproj"
+              "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ServiceDefaults\\ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ServiceDefaults\\ServiceDefaults.csproj"
               }
             }
           }
@@ -569,12 +569,6 @@
             "Aspire.StackExchange.Redis.OutputCaching": {
               "target": "Package",
               "version": "[13.1.0, )"
-            },
-            "Microsoft.AspNetCore.App.Internal.Assets": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.1, )",
-              "autoReferenced": true
             }
           },
           "imports": [

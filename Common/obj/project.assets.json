@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\Common.csproj",
+      "projectPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\miste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\obj\\",
+      "outputPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

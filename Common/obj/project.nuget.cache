@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9USLpWwyHEw=",
+  "dgSpecHash": "Zgd83mYCPKc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\Common.csproj",
+  "projectFilePath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

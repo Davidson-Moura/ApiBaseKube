@@ -966,11 +966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miste\\source\\testes\\AspireTest\\ServiceDefaults\\ServiceDefaults.csproj",
+      "projectUniqueName": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ServiceDefaults\\ServiceDefaults.csproj",
       "projectName": "ServiceDefaults",
-      "projectPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\ServiceDefaults\\ServiceDefaults.csproj",
+      "projectPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ServiceDefaults\\ServiceDefaults.csproj",
       "packagesPath": "C:\\Users\\miste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\ServiceDefaults\\obj\\",
+      "outputPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ServiceDefaults\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

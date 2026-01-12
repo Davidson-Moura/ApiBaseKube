@@ -1,14 +1,16 @@
-﻿using ApiService.Definitions;
-using Common;
-using Common.Messages;
+﻿using ApiService.Domain.Entities.Generics;
 using System.Text.Json.Serialization;
+using ApiService.Definitions;
+using Common.Messages;
+using Common;
 
 namespace ApiService.Domain.Entities.Users
 {
-    public class User : PostegresEntity
+    public class User : PostgresEntity
     {
         public string Name { get; set; }
         public string Email { get; set; }
+        public Guid AuthorizationGroupId { get; set; }
         [JsonIgnore]
         public string Password { get => _password; set => _password = value; }
         private string _password;
@@ -32,7 +34,7 @@ namespace ApiService.Domain.Entities.Users
             _password = DefaultValues.DefaultHiddenPassword;
         }
     }
-    public class UserFilter : Infra.Entities.Generics.PGFilterBase<User>
+    public class UserFilter : PGFilterBase<User>
     {
         public string? Name { get; set; }
         public string? Email { get; set; }

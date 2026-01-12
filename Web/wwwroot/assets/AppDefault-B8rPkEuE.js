@@ -1,0 +1,1 @@
+import{a1 as o,bq as t,a2 as n,a9 as s,a8 as a}from"./index-CDg5AEKA.js";const r=t({components:{},data(){return{}},created(){this.$Session.init()},updated(){this.$Session.verifyConnection()}});function c(i,p,_,d,f,u){const e=s("router-view");return a(),n(e)}const $=o(r,[["render",c]]);export{$ as default};

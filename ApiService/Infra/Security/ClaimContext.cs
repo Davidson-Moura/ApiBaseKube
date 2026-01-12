@@ -1,4 +1,5 @@
 ﻿using ApiService.Domain.Security;
+using ApiService.Definitions;
 using System.Security.Claims;
 
 namespace ApiService.Infra.Security
@@ -53,6 +54,25 @@ namespace ApiService.Infra.Security
             }
         }
         public string Email => _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Email)?.Value;
+        public Guid TenantId
+        {
+            get
+            {
+                if (_identity is not null) return Guid.Parse(_identity.FindFirst(ClaimTypeEnum.TenantId.ToString())?.Value);
+                if (IsAdmin) return DefaultValues.AdminTenantId;
+                return Guid.TryParse(_httpContextAccessor.HttpContext.User.FindFirst(ClaimTypeEnum.TenantId.ToString())?.Value, out Guid result) ? result : Guid.Empty;
+            }
+        }
+        public Guid? AuthorizationGroupId
+        {
+            get
+            {
+                var value = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypeEnum.AuthorizationGroupId.ToString())?.Value;
+                if (Guid.TryParse(value, out Guid result)) return result;
+                return null;
+            }
+        }
+        public bool IsAdmin => bool.TryParse(_httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.System)?.Value, out bool v) ? v : false;
         public string GetMachineIdentifier()
         {
             var context = _httpContextAccessor.HttpContext;
@@ -65,6 +85,20 @@ namespace ApiService.Infra.Security
             var hash = Convert.ToBase64String(System.Security.Cryptography.SHA256.HashData(System.Text.Encoding.UTF8.GetBytes(raw)));
 
             return hash;
+        }
+        public void SetClaim()
+        {
+            var claims = new List<Claim>()
+                {
+                    new Claim(ClaimTypes.Hash, "0"),
+                    new Claim(ClaimTypes.Name, string.Empty),
+                    new Claim(ClaimTypes.System, true.ToString()),
+                    new Claim(ClaimTypes.Email, string.Empty),
+                    new Claim(ClaimTypeEnum.Expires.ToString(), DateTime.Now.ToString()),
+                    new Claim(ClaimTypeEnum.TenantId.ToString(), DefaultValues.AdminTenantId.ToString()),
+                };
+
+            _identity = new ClaimsIdentity(claims);
         }
     }
 }

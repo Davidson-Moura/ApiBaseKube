@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "ApiService.Controllers.Security.AuthenticationController",
+    "Method": "AdminLogin",
+    "RelativePath": "Authentication/AdminLogin/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "ApiService.Models.Users.UserLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Security.AuthenticationController",
     "Method": "Login",
     "RelativePath": "Authentication/Login/v1",
     "HttpMethod": "POST",
@@ -26,8 +42,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ApiService.Controllers.Security.AuthenticationController",
+    "Method": "MyPermissions",
+    "RelativePath": "Authentication/MyPermissions/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Dashboards.MenuController",
+    "Method": "CountMainMenus",
+    "RelativePath": "Menu/CountMainMenus/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Dashboards.MenuController",
+    "Method": "MainMenus",
+    "RelativePath": "Menu/MainMenus/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Security.SystemController",
+    "Method": "Define",
+    "RelativePath": "System/Define/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiService.Controllers.Entities.Users.UserController",
-    "Method": "Add",
+    "Method": "GetByKey",
     "RelativePath": "User/{id}/v1",
     "HttpMethod": "GET",
     "IsController": true,

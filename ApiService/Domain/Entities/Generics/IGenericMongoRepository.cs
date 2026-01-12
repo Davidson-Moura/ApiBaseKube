@@ -1,5 +1,4 @@
-﻿using ApiService.Infra.Entities.Generics;
-using ApiService.Models.Lists;
+﻿using ApiService.Models.Lists;
 
 namespace ApiService.Domain.Entities.Generics
 {

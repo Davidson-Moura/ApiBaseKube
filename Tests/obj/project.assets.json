@@ -2181,6 +2181,16 @@
         "runtime": {
           "bin/placeholder/AppHost.dll": {}
         }
+      },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
       }
     }
   },
@@ -5001,12 +5011,18 @@
       "type": "project",
       "path": "../AppHost/AppHost.csproj",
       "msbuildProject": "../AppHost/AppHost.csproj"
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "AppHost >= 1.0.0",
       "Aspire.Hosting.Testing >= 13.1.0",
+      "Common >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.14.1",
       "NUnit >= 4.4.0",
       "NUnit.Analyzers >= 4.10.0",
@@ -5020,11 +5036,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miste\\source\\testes\\AspireTest\\Tests\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Tests\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\Tests\\Tests.csproj",
+      "projectPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Tests\\Tests.csproj",
       "packagesPath": "C:\\Users\\miste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\Tests\\obj\\",
+      "outputPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5045,8 +5061,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\miste\\source\\testes\\AspireTest\\AppHost\\AppHost.csproj": {
-              "projectPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\AppHost\\AppHost.csproj"
+            "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\AppHost\\AppHost.csproj": {
+              "projectPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\AppHost\\AppHost.csproj"
+            },
+            "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\Common.csproj"
             }
           }
         }

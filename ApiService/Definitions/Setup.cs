@@ -1,8 +1,9 @@
 ﻿using ApiService.Domain.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
+using StackExchange.Redis;
 using System.Text;
 
 namespace ApiService.Definitions
@@ -15,6 +16,8 @@ namespace ApiService.Definitions
             DefaultValues.SetOSPlatform();
 
             builder.Services.AddProblemDetails();
+
+            builder.Services.AddCors();
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddHealthChecks();
@@ -86,6 +89,23 @@ namespace ApiService.Definitions
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Api:IssuerSigningKey"]!))
                 };
+
+                options.Events = new JwtBearerEvents
+                {
+                    OnMessageReceived = context =>
+                    {
+                        var accessToken = context.Request.Query["access_token"];
+
+                        var path = context.HttpContext.Request.Path;
+                        if (!string.IsNullOrEmpty(accessToken) &&
+                            path.StartsWithSegments("/SessionHub"))
+                        {
+                            context.Token = accessToken;
+                        }
+
+                        return Task.CompletedTask;
+                    }
+                };
             });
 
             builder.Services.AddAuthorization(options =>
@@ -95,10 +115,45 @@ namespace ApiService.Definitions
                     .Build();
             });
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.PropertyNamingPolicy = null;
+                options.JsonSerializerOptions.DictionaryKeyPolicy = null;
+            });
+
             builder.Services.AddHttpLogging();
 
             builder.Services.AddHttpContextAccessor();
+
+            builder.Services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = builder.Configuration.GetConnectionString("cache")
+                    ?? throw new InvalidOperationException("Redis cache não configurado");
+
+                options.InstanceName = "ApiService:";
+            });
+
+            var allAuthorization = System.Enum.GetValues(typeof(AuthorizationRoleEnum)).Cast<AuthorizationRoleEnum>()
+                .Select(x => x.ToString()).ToList();
+
+            builder.Services.AddAuthorization(options =>
+            {
+                foreach (var item in allAuthorization) options.AddPolicy(item, policy => policy.Requirements.Add(new PermissionRequirement(item)));
+            });
+
+            builder.Services.AddSignalR(options =>
+            {
+                options.EnableDetailedErrors = true;
+                options.KeepAliveInterval = TimeSpan.FromSeconds(10);
+                options.ClientTimeoutInterval = TimeSpan.FromSeconds(30);
+            }).AddStackExchangeRedis(options =>
+            {
+                options.Configuration = ConfigurationOptions.Parse(
+                    builder.Configuration.GetConnectionString("cache")!
+                );
+                options.Configuration.AbortOnConnectFail = false;
+                options.Configuration.ChannelPrefix = RedisChannel.Literal("SignalR");
+            }); ;
 
             InjectionRegister.Register(builder.Services, builder.Configuration);
         }

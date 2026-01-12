@@ -6,6 +6,7 @@ using ApiService.Domain.Security;
 using ApiService.Models.Users;
 using System.Security.Claims;
 using System.Text;
+using ApiService.Domain.AdminEntities.Users;
 
 namespace ApiService.Services.Security
 {
@@ -43,7 +44,9 @@ namespace ApiService.Services.Security
             {
                 UserId = user.Id,
                 UserName = user.Name,
-                ExpiresAt = DateTime.Now.AddMinutes(15)
+                UserEmail = user.Email,
+                ExpiresAt = DateTime.Now.AddMinutes(15),
+                IsAdmin = false
             };
             var expires = DateTime.Now.AddMinutes(15);
 
@@ -52,8 +55,11 @@ namespace ApiService.Services.Security
                     new Claim(ClaimTypes.Hash, user.Id.ToString()),
                     new Claim(ClaimTypes.Name, user.Name??string.Empty),
                     //new Claim(ClaimTypes.NameIdentifier, user.LoginName??string.Empty),
+                    new Claim(ClaimTypes.System, false.ToString()),
                     new Claim(ClaimTypes.Email, user.Email??string.Empty),
                     new Claim(ClaimTypeEnum.Expires.ToString(), expires.ToString()),
+                    new Claim(ClaimTypeEnum.TenantId.ToString(), user.TenantId.ToString()),
+                    new Claim(ClaimTypeEnum.AuthorizationGroupId.ToString(), user.AuthorizationGroupId.ToString()),
                 };
             /*
             if (isAdmin)
@@ -71,6 +77,56 @@ namespace ApiService.Services.Security
 
             group.Roles.ForEach(r => claims.Add(new Claim(ClaimTypes.Role, r)) );
             */
+
+            var textToken = GetToken(claims, expires);
+
+            var imgClaims = new Claim[]
+            {
+                new Claim(ClaimTypes.Hash, user.Id.ToString()),
+                new Claim(ClaimTypes.Role, "ViewFiles"),
+            };
+            var textTokenFiles = GetToken(imgClaims, expires);
+
+            SameSiteMode same = SameSiteMode.None;
+#if !DEBUG
+            //same = SameSiteMode.Strict;
+#endif
+            var cookieOptions = new CookieOptions
+            {
+                HttpOnly = true, // Impede acesso via JavaScript (protege contra XSS)
+                Secure = true,   // Apenas HTTPS (não use em localhost sem HTTPS)
+                SameSite = same, // Protege contra CSRF
+                Expires = DateTime.UtcNow.AddHours(6) // Expiração do cookie
+            };
+            response.Cookies.Append("AuthToken", textTokenFiles, cookieOptions);
+
+            model.Token = textToken;
+            model.ExpiresAt = expires;
+            return model;
+        }
+
+        public UserLoginResponseModel GenerateToken(UserAdmin user, HttpResponse response)
+        {
+            var model = new UserLoginResponseModel()
+            {
+                UserId = user.Id,
+                UserName = user.Name,
+                UserEmail = user.Email,
+                ExpiresAt = DateTime.Now.AddMinutes(15),
+                IsAdmin = true
+            };
+            var expires = DateTime.Now.AddMinutes(15);
+
+            var claims = new List<Claim>()
+                {
+                    new Claim(ClaimTypes.Hash, user.Id.ToString()),
+                    new Claim(ClaimTypes.Name, user.Name??string.Empty),
+                    new Claim(ClaimTypes.System, true.ToString()),
+                    new Claim(ClaimTypes.Email, user.Email??string.Empty),
+                    new Claim(ClaimTypeEnum.Expires.ToString(), expires.ToString()),
+                    new Claim(ClaimTypeEnum.TenantId.ToString(), user.TenantId.ToString()),
+                    new Claim(ClaimTypeEnum.AuthorizationGroupId.ToString(), user.AuthorizationGroupId.ToString()),
+                };
 
             var textToken = GetToken(claims, expires);
 

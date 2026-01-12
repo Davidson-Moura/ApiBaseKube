@@ -61,6 +61,15 @@ namespace Common.Messages.Languages {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Authorization group not found..
+        /// </summary>
+        internal static string AuthorizationGroupNotFound {
+            get {
+                return ResourceManager.GetString("AuthorizationGroupNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Email {0} is already in use..
         /// </summary>
         internal static string EmailIsAlreadyInUse {
@@ -169,6 +178,51 @@ namespace Common.Messages.Languages {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a User.
+        /// </summary>
+        internal static string U {
+            get {
+                return ResourceManager.GetString("U", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Create users.
+        /// </summary>
+        internal static string U_C {
+            get {
+                return ResourceManager.GetString("U_C", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Delete users.
+        /// </summary>
+        internal static string U_D {
+            get {
+                return ResourceManager.GetString("U_D", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Update users.
+        /// </summary>
+        internal static string U_U {
+            get {
+                return ResourceManager.GetString("U_U", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a View users.
+        /// </summary>
+        internal static string U_V {
+            get {
+                return ResourceManager.GetString("U_V", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Uninformed email..
         /// </summary>
         internal static string UninformedEmail {
@@ -201,6 +255,15 @@ namespace Common.Messages.Languages {
         internal static string User {
             get {
                 return ResourceManager.GetString("User", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The user was accessed from another location..
+        /// </summary>
+        internal static string YourUserWasAccessedFromAnotherLocation {
+            get {
+                return ResourceManager.GetString("YourUserWasAccessedFromAnotherLocation", resourceCulture);
             }
         }
     }

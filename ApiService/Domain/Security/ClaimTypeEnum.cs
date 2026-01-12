@@ -2,6 +2,8 @@
 {
     public enum ClaimTypeEnum
     {
-        Expires
+        Expires = 1,
+        TenantId = 2,
+        AuthorizationGroupId = 3
     }
 }

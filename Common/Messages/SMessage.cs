@@ -48,6 +48,8 @@ namespace Common.Messages
         NotFound,
         User,
         PasswordsDoNotMatch,
-        InvalidCredentials
+        InvalidCredentials,
+        AuthorizationGroupNotFound,
+        YourUserWasAccessedFromAnotherLocation
     }
 }

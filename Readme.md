@@ -110,19 +110,15 @@ rm -r k8s-artifacts/
 kubectl logs -f apiservice-deployment-5cf96997cb-ks825
 
 ## Postgres no docker
-docker run -d \
-  --name postgres-db \
-  -e POSTGRES_PASSWORD=inovy \
-  -e POSTGRES_DB=appdb \
-  -v postgres_data:/var/lib/postgresql/data \
-  -p 5432:5432 \
-  postgres:16
+docker run -d --name postgres-db -e POSTGRES_PASSWORD=inovy -e POSTGRES_DB=appdb -v postgres_data:/var/lib/postgresql/data -p 5432:5432 postgres:16
 
 Host=localhost;Port=5432;Database=appdb;Username=postgres;Password=inovy
 
 
 ### Criar migração
 dotnet ef migrations add InitialCreate
+### Adicionar cada migração
+dotnet ef migrations add AdminUserTables
 ### Atualiza o banco de dados no ambiente
 dotnet ef database update
 
@@ -140,4 +136,14 @@ dotnet ef database update 0
 
 ### Apagar tudo e criar de novo
 dotnet ef database drop --force
+dotnet ef database update
+
+### Apagar todas as migrações criadas, mas não altera o banco
+- deletar a pasta Migrations do projeto
+
+- deletar a tabela de migrações
+DELETE FROM "__EFMigrationsHistory";
+
+- Criar a primeira migração de novo
+dotnet ef migrations add InitialCreate
 dotnet ef database update

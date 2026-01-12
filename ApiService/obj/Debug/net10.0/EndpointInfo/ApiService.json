@@ -54,6 +54,85 @@
         }
       }
     },
+    "/Authentication/AdminLogin/v1": {
+      "post": {
+        "tags": [
+          "Authentication"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserLoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserLoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserLoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Authentication/MyPermissions/v1": {
+      "get": {
+        "tags": [
+          "Authentication"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Menu/MainMenus/v1": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Menu/CountMainMenus/v1": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/System/Define/v1": {
+      "post": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/User/v1": {
       "get": {
         "tags": [
@@ -180,25 +259,33 @@
       "User": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "string",
             "format": "uuid"
           },
-          "createDate": {
+          "TenantId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "CreateDate": {
             "type": "string",
             "format": "date-time"
           },
-          "updateDate": {
+          "UpdateDate": {
             "type": "string",
             "format": "date-time"
           },
-          "name": {
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "email": {
+          "Email": {
             "type": "string",
             "nullable": true
+          },
+          "AuthorizationGroupId": {
+            "type": "string",
+            "format": "uuid"
           }
         },
         "additionalProperties": false
@@ -206,31 +293,39 @@
       "UserCreateModel": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "type": "string",
             "format": "uuid"
           },
-          "createDate": {
+          "TenantId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "CreateDate": {
             "type": "string",
             "format": "date-time"
           },
-          "updateDate": {
+          "UpdateDate": {
             "type": "string",
             "format": "date-time"
           },
-          "name": {
+          "Name": {
             "type": "string",
             "nullable": true
           },
-          "email": {
+          "Email": {
             "type": "string",
             "nullable": true
           },
-          "password": {
+          "AuthorizationGroupId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "Password": {
             "type": "string",
             "nullable": true
           },
-          "confirmPassword": {
+          "ConfirmPassword": {
             "type": "string",
             "nullable": true
           }
@@ -240,11 +335,11 @@
       "UserLoginModel": {
         "type": "object",
         "properties": {
-          "login": {
+          "Login": {
             "type": "string",
             "nullable": true
           },
-          "password": {
+          "Password": {
             "type": "string",
             "nullable": true
           }
@@ -269,6 +364,12 @@
   "tags": [
     {
       "name": "Authentication"
+    },
+    {
+      "name": "Menu"
+    },
+    {
+      "name": "System"
     },
     {
       "name": "User"

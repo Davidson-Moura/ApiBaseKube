@@ -19,6 +19,8 @@ namespace ApiService.Domain.Entities.Users
             builder.HasIndex(x => x.Email).IsUnique();
 
             builder.Property(x => x.Password).HasColumnType("text").IsRequired();
+
+            builder.Property(x => x.AuthorizationGroupId).HasColumnType("uuid");
         }
     }
 }

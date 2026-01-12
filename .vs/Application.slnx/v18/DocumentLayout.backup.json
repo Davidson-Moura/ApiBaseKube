@@ -1,150 +1,178 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\miste\\source\\testes\\AspireTest\\",
+  "WorkspaceRootPath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\services\\security\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\services\\security\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\controllers\\security\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\controllers\\security\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\infra\\entities\\generics\\genericpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\entities\\generics\\genericpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\controllers\\entities\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\controllers\\entities\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\databases\\entitypostgreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\databases\\entitypostgreconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\injectionregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\injectionregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\definitions\\unitofworkmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\definitions\\unitofworkmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\services\\entities\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\services\\entities\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\entities\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\infra\\entities\\generics\\pgfilterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\entities\\generics\\pgfilterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\entities\\postegresentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\postegresentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\infra\\databases\\postgretransactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\databases\\postgretransactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\models\\users\\usercreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\models\\users\\usercreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\definitions\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\definitions\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\definitions\\setup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\common\\messages\\languages\\messages.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|solutionrelative:common\\messages\\languages\\messages.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\infra\\hubs\\sessionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\hubs\\sessionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\security\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\security\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\entities\\generics\\igenericpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\generics\\igenericpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\infra\\databases\\postgreconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\databases\\postgreconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\authorizationgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\authorizationgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\common\\messages\\smessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|solutionrelative:common\\messages\\smessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\common\\sexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|solutionrelative:common\\sexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\databases\\ipostgretransactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\databases\\ipostgretransactionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\security\\iclaimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\security\\iclaimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\infra\\security\\claimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\security\\claimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\models\\lists\\paginationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\models\\lists\\paginationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\definitions\\defaultvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\definitions\\defaultvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\entities\\users\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\security\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\security\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\security\\permissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\security\\permissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\services\\adminentities\\users\\useradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\services\\adminentities\\users\\useradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\hubs\\isessionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\hubs\\isessionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\services\\entities\\authorizations\\authorizationgroups\\authorizationgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\services\\entities\\authorizations\\authorizationgroups\\authorizationgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\iauthorizationgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\iauthorizationgroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\adminentities\\users\\useradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\adminentities\\users\\useradmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\adminentities\\tenants\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\adminentities\\tenants\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\common\\cryptography.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|solutionrelative:common\\cryptography.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82969919-02A7-82FB-319B-BC53DA90DEF4}|AppHost\\AppHost.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82969919-02A7-82FB-319B-BC53DA90DEF4}|AppHost\\AppHost.csproj|solutionrelative:apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\services\\caches\\usermappingcacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\services\\caches\\usermappingcacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\infra\\security\\claimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\security\\claimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\models\\users\\usercreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\models\\users\\usercreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\common\\messages\\languages\\messages.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{BD047D31-BA66-4B0D-A04C-CAA6F8976C44}|Common\\Common.csproj|solutionrelative:common\\messages\\languages\\messages.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE2BDC88-D1CD-68A9-724B-0BB2BF755B0E}|Web\\Web.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\web\\frontend\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AE2BDC88-D1CD-68A9-724B-0BB2BF755B0E}|Web\\Web.csproj|solutionrelative:web\\frontend\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\caches\\iusermappingcacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\caches\\iusermappingcacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\controllers\\security\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\controllers\\security\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\authorizationgroupmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\authorizationgroupmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\controllers\\views\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\controllers\\views\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\security\\authorizationroleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\security\\authorizationroleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\infra\\entities\\authorizations\\authorizationgroups\\authorizationgroupcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\entities\\authorizations\\authorizationgroups\\authorizationgroupcache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\infra\\views\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\views\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\views\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\views\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\infra\\entities\\generics\\genericpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\entities\\generics\\genericpostgrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\services\\security\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\services\\security\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\authorizationgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\authorizationgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\services\\security\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\services\\security\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\adminentities\\users\\iuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\adminentities\\users\\iuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\controllers\\entities\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\controllers\\entities\\users\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\authorizationgrouprolemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\authorizationgrouprolemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\injectionregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\injectionregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\iauthorizationgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\auhtorizations\\authorizationgroups\\iauthorizationgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\entities\\users\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\users\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\infra\\databases\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\databases\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\databases\\iconnectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\databases\\iconnectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\adminentities\\users\\useradminmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\adminentities\\users\\useradminmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\infra\\entities\\generics\\mgfilterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\entities\\generics\\mgfilterbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\controllers\\security\\systemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\controllers\\security\\systemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\migrations\\20260103012557_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\migrations\\20260103012557_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\definitions\\defaultvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\definitions\\defaultvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\infra\\databases\\mongodbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\databases\\mongodbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\services\\adminentities\\tenants\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\services\\adminentities\\tenants\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\domain\\databases\\mongoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\databases\\mongoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\security\\iclaimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\security\\iclaimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\testes\\aspiretest\\apiservice\\infra\\entities\\authorizations\\authorizationgroups\\authorizationgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\infra\\entities\\authorizations\\authorizationgroups\\authorizationgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|c:\\users\\miste\\source\\repos\\apibasekube\\apiservice\\domain\\adminentities\\tenants\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6E670A-3D3D-430E-4DD4-25AD2C7D9C26}|ApiService\\ApiService.csproj|solutionrelative:apiservice\\domain\\adminentities\\tenants\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,493 +182,598 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Messages.resx",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\Messages\\Languages\\Messages.resx",
-              "RelativeDocumentMoniker": "Common\\Messages\\Languages\\Messages.resx",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\Messages\\Languages\\Messages.resx",
-              "RelativeToolTip": "Common\\Messages\\Languages\\Messages.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-01-03T12:02:37.116Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Setup.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Definitions\\Setup.cs",
-              "RelativeDocumentMoniker": "ApiService\\Definitions\\Setup.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Definitions\\Setup.cs",
-              "RelativeToolTip": "ApiService\\Definitions\\Setup.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAADgv2QAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T11:06:41.306Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InjectionRegister.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\InjectionRegister.cs",
-              "RelativeDocumentMoniker": "ApiService\\InjectionRegister.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\InjectionRegister.cs",
-              "RelativeToolTip": "ApiService\\InjectionRegister.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T01:25:10.649Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "DefaultValues.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Definitions\\DefaultValues.cs",
-              "RelativeDocumentMoniker": "ApiService\\Definitions\\DefaultValues.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Definitions\\DefaultValues.cs",
-              "RelativeToolTip": "ApiService\\Definitions\\DefaultValues.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwAQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:19:45.351Z",
+              "DocumentIndex": 17,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Web\\FrontEnd\\vite.config.js",
+              "RelativeDocumentMoniker": "Web\\FrontEnd\\vite.config.js",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Web\\FrontEnd\\vite.config.js",
+              "RelativeToolTip": "Web\\FrontEnd\\vite.config.js",
+              "ViewState": "AgIAACwAAAAAAAAAAAAMwDYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-04T11:28:15.316Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Users\\User.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Users\\User.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Users\\User.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Entities\\Users\\User.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAWwBMAAAA1AAAAAAAAAA==",
+              "Title": "Setup.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Definitions\\Setup.cs",
+              "RelativeDocumentMoniker": "ApiService\\Definitions\\Setup.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Definitions\\Setup.cs",
+              "RelativeToolTip": "ApiService\\Definitions\\Setup.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAADwv1sAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:23:17.692Z",
+              "WhenOpened": "2026-01-06T00:44:26.64Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PostegresEntity.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\PostegresEntity.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\PostegresEntity.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\PostegresEntity.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Entities\\PostegresEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "IMenuService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Views\\IMenuService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Views\\IMenuService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Views\\IMenuService.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Views\\IMenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:23:47.81Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuthorizationGroup.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroup.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroup.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroup.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:25:20.347Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PostgreConnection.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Databases\\PostgreConnection.cs",
-              "RelativeDocumentMoniker": "ApiService\\Infra\\Databases\\PostgreConnection.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Databases\\PostgreConnection.cs",
-              "RelativeToolTip": "ApiService\\Infra\\Databases\\PostgreConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:26:59.228Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserMap.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Users\\UserMap.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Users\\UserMap.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Users\\UserMap.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Entities\\Users\\UserMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:30:57.216Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EntityPostgreConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Databases\\EntityPostgreConfiguration.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Databases\\EntityPostgreConfiguration.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Databases\\EntityPostgreConfiguration.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Databases\\EntityPostgreConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:51:32.93Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Controllers\\Entities\\Users\\UserController.cs",
-              "RelativeDocumentMoniker": "ApiService\\Controllers\\Entities\\Users\\UserController.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Controllers\\Entities\\Users\\UserController.cs",
-              "RelativeToolTip": "ApiService\\Controllers\\Entities\\Users\\UserController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAwwD8AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T01:47:37.794Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Services\\Entities\\Users\\UserService.cs",
-              "RelativeDocumentMoniker": "ApiService\\Services\\Entities\\Users\\UserService.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Services\\Entities\\Users\\UserService.cs",
-              "RelativeToolTip": "ApiService\\Services\\Entities\\Users\\UserService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T11:36:23.47Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Users\\IUserService.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Users\\IUserService.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Users\\IUserService.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Entities\\Users\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T11:47:06.859Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IGenericPostgreRepository.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Generics\\IGenericPostgreRepository.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Generics\\IGenericPostgreRepository.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Entities\\Generics\\IGenericPostgreRepository.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Entities\\Generics\\IGenericPostgreRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:03:17.647Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericPostgreRepository.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Entities\\Generics\\GenericPostgreRepository.cs",
-              "RelativeDocumentMoniker": "ApiService\\Infra\\Entities\\Generics\\GenericPostgreRepository.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Entities\\Generics\\GenericPostgreRepository.cs",
-              "RelativeToolTip": "ApiService\\Infra\\Entities\\Generics\\GenericPostgreRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:03:32.931Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PGFilterBase.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Entities\\Generics\\PGFilterBase.cs",
-              "RelativeDocumentMoniker": "ApiService\\Infra\\Entities\\Generics\\PGFilterBase.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Entities\\Generics\\PGFilterBase.cs",
-              "RelativeToolTip": "ApiService\\Infra\\Entities\\Generics\\PGFilterBase.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:08:32.546Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PostgreTransactionManager.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Databases\\PostgreTransactionManager.cs",
-              "RelativeDocumentMoniker": "ApiService\\Infra\\Databases\\PostgreTransactionManager.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Databases\\PostgreTransactionManager.cs",
-              "RelativeToolTip": "ApiService\\Infra\\Databases\\PostgreTransactionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:53:26.837Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IPostgreTransactionManager.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Databases\\IPostgreTransactionManager.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Databases\\IPostgreTransactionManager.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Databases\\IPostgreTransactionManager.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Databases\\IPostgreTransactionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:54:01.039Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IClaimContext.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Security\\IClaimContext.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Security\\IClaimContext.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Security\\IClaimContext.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Security\\IClaimContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T10:38:30.728Z",
+              "WhenOpened": "2026-01-06T00:54:45.17Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "ClaimContext.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Security\\ClaimContext.cs",
-              "RelativeDocumentMoniker": "ApiService\\Infra\\Security\\ClaimContext.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Security\\ClaimContext.cs",
-              "RelativeToolTip": "ApiService\\Infra\\Security\\ClaimContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAVAAAAAAAAAA==",
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Views\\MenuService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Infra\\Views\\MenuService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Views\\MenuService.cs",
+              "RelativeToolTip": "ApiService\\Infra\\Views\\MenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T10:49:55.436Z",
+              "WhenOpened": "2026-01-06T00:55:41.842Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthorizationGroupCache.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupCache.cs",
+              "RelativeDocumentMoniker": "ApiService\\Infra\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupCache.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupCache.cs",
+              "RelativeToolTip": "ApiService\\Infra\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupCache.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvzEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:46:36.365Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Tenants\\Tenant.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\AdminEntities\\Tenants\\Tenant.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Tenants\\Tenant.cs",
+              "RelativeToolTip": "ApiService\\Domain\\AdminEntities\\Tenants\\Tenant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T10:49:51.742Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "TenantService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\AdminEntities\\Tenants\\TenantService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Services\\AdminEntities\\Tenants\\TenantService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\AdminEntities\\Tenants\\TenantService.cs",
+              "RelativeToolTip": "ApiService\\Services\\AdminEntities\\Tenants\\TenantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:20:01.639Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ITenantService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Tenants\\ITenantService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\AdminEntities\\Tenants\\ITenantService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Tenants\\ITenantService.cs",
+              "RelativeToolTip": "ApiService\\Domain\\AdminEntities\\Tenants\\ITenantService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:20:38.44Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "InjectionRegister.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\InjectionRegister.cs",
+              "RelativeDocumentMoniker": "ApiService\\InjectionRegister.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\InjectionRegister.cs",
+              "RelativeToolTip": "ApiService\\InjectionRegister.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:20:16.729Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Users\\UserAdmin.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\AdminEntities\\Users\\UserAdmin.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Users\\UserAdmin.cs",
+              "RelativeToolTip": "ApiService\\Domain\\AdminEntities\\Users\\UserAdmin.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowC4AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:59:08.532Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SystemController.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Controllers\\Security\\SystemController.cs",
+              "RelativeDocumentMoniker": "ApiService\\Controllers\\Security\\SystemController.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Controllers\\Security\\SystemController.cs",
+              "RelativeToolTip": "ApiService\\Controllers\\Security\\SystemController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T00:02:01.849Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\AdminEntities\\Users\\UserAdminService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Services\\AdminEntities\\Users\\UserAdminService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\AdminEntities\\Users\\UserAdminService.cs",
+              "RelativeToolTip": "ApiService\\Services\\AdminEntities\\Users\\UserAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T00:04:47.463Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IUserAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Users\\IUserAdminService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\AdminEntities\\Users\\IUserAdminService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Users\\IUserAdminService.cs",
+              "RelativeToolTip": "ApiService\\Domain\\AdminEntities\\Users\\IUserAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T00:05:04.731Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\Security\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Services\\Security\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\Security\\AuthenticationService.cs",
+              "RelativeToolTip": "ApiService\\Services\\Security\\AuthenticationService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T00:40:17.721Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClaimContext.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Security\\ClaimContext.cs",
+              "RelativeDocumentMoniker": "ApiService\\Infra\\Security\\ClaimContext.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Security\\ClaimContext.cs",
+              "RelativeToolTip": "ApiService\\Infra\\Security\\ClaimContext.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowEoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:30:11.488Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\Security\\TokenService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Services\\Security\\TokenService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\Security\\TokenService.cs",
+              "RelativeToolTip": "ApiService\\Services\\Security\\TokenService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAkwH8AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T00:30:43.383Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GenericPostgreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Entities\\Generics\\GenericPostgreRepository.cs",
+              "RelativeDocumentMoniker": "ApiService\\Infra\\Entities\\Generics\\GenericPostgreRepository.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Entities\\Generics\\GenericPostgreRepository.cs",
+              "RelativeToolTip": "ApiService\\Infra\\Entities\\Generics\\GenericPostgreRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAiwEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:29:32.702Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IClaimContext.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Security\\IClaimContext.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Security\\IClaimContext.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Security\\IClaimContext.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Security\\IClaimContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T23:30:46.063Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DefaultValues.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Definitions\\DefaultValues.cs",
+              "RelativeDocumentMoniker": "ApiService\\Definitions\\DefaultValues.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Definitions\\DefaultValues.cs",
+              "RelativeToolTip": "ApiService\\Definitions\\DefaultValues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T08:08:08.273Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthorizationGroup.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroup.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroup.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroup.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T08:43:25.905Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthorizationGroupMap.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroupMap.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroupMap.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroupMap.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroupMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T08:46:05.114Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AuthorizationGroupRoleMap.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroupRoleMap.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroupRoleMap.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroupRoleMap.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\AuthorizationGroupRoleMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T08:51:58.086Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthorizationGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\IAuthorizationGroupService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\IAuthorizationGroupService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\IAuthorizationGroupService.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\IAuthorizationGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:02:07.794Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UnitOfWorkMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Definitions\\UnitOfWorkMiddleware.cs",
-              "RelativeDocumentMoniker": "ApiService\\Definitions\\UnitOfWorkMiddleware.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Definitions\\UnitOfWorkMiddleware.cs",
-              "RelativeToolTip": "ApiService\\Definitions\\UnitOfWorkMiddleware.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Title": "AuthorizationGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Services\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupService.cs",
+              "RelativeToolTip": "ApiService\\Services\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T11:15:07.469Z",
+              "WhenOpened": "2026-01-11T09:02:40.899Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Controllers\\Entities\\Users\\UserController.cs",
+              "RelativeDocumentMoniker": "ApiService\\Controllers\\Entities\\Users\\UserController.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Controllers\\Entities\\Users\\UserController.cs",
+              "RelativeToolTip": "ApiService\\Controllers\\Entities\\Users\\UserController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwBMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:36:48.638Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Controllers\\Security\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "ApiService\\Controllers\\Security\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Controllers\\Security\\AuthenticationController.cs",
+              "RelativeToolTip": "ApiService\\Controllers\\Security\\AuthenticationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T23:10:29.983Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "SException.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\SException.cs",
-              "RelativeDocumentMoniker": "Common\\SException.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\SException.cs",
-              "RelativeToolTip": "Common\\SException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAABTAAAAAAAAAA==",
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Controllers\\Views\\MenuController.cs",
+              "RelativeDocumentMoniker": "ApiService\\Controllers\\Views\\MenuController.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Controllers\\Views\\MenuController.cs",
+              "RelativeToolTip": "ApiService\\Controllers\\Views\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T12:03:40.716Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserCreateModel.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Models\\Users\\UserCreateModel.cs",
-              "RelativeDocumentMoniker": "ApiService\\Models\\Users\\UserCreateModel.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Models\\Users\\UserCreateModel.cs",
-              "RelativeToolTip": "ApiService\\Models\\Users\\UserCreateModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T12:15:38.347Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Controllers\\Security\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "ApiService\\Controllers\\Security\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Controllers\\Security\\AuthenticationController.cs",
-              "RelativeToolTip": "ApiService\\Controllers\\Security\\AuthenticationController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T01:47:57.266Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Services\\Security\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "ApiService\\Services\\Security\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Services\\Security\\AuthenticationService.cs",
-              "RelativeToolTip": "ApiService\\Services\\Security\\AuthenticationService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAArwB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T13:37:40.525Z",
+              "WhenOpened": "2026-01-11T23:13:30.359Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Security\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Security\\IAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Security\\IAuthenticationService.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Security\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T13:41:02.57Z",
+              "Title": "Messages.resx",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\Messages\\Languages\\Messages.resx",
+              "RelativeDocumentMoniker": "Common\\Messages\\Languages\\Messages.resx",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\Messages\\Languages\\Messages.resx",
+              "RelativeToolTip": "Common\\Messages\\Languages\\Messages.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-01-11T23:53:07.342Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "SMessage.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\Messages\\SMessage.cs",
-              "RelativeDocumentMoniker": "Common\\Messages\\SMessage.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\Common\\Messages\\SMessage.cs",
-              "RelativeToolTip": "Common\\Messages\\SMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACPAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "AuthorizationRoleEnum.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Security\\AuthorizationRoleEnum.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Security\\AuthorizationRoleEnum.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Security\\AuthorizationRoleEnum.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Security\\AuthorizationRoleEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T12:03:49.524Z",
+              "WhenOpened": "2026-01-11T23:52:14.283Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Program.cs",
               "RelativeDocumentMoniker": "ApiService\\Program.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Program.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Program.cs",
               "RelativeToolTip": "ApiService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T11:02:37.205Z",
+              "WhenOpened": "2026-01-12T00:06:32.042Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "MGFilterBase.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Entities\\Generics\\MGFilterBase.cs",
-              "RelativeDocumentMoniker": "ApiService\\Infra\\Entities\\Generics\\MGFilterBase.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Entities\\Generics\\MGFilterBase.cs",
-              "RelativeToolTip": "ApiService\\Infra\\Entities\\Generics\\MGFilterBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\AppHost\\AppHost.cs",
+              "RelativeDocumentMoniker": "AppHost\\AppHost.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\AppHost\\AppHost.cs",
+              "RelativeToolTip": "AppHost\\AppHost.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:08:13.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "PaginationModel.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Models\\Lists\\PaginationModel.cs",
-              "RelativeDocumentMoniker": "ApiService\\Models\\Lists\\PaginationModel.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Models\\Lists\\PaginationModel.cs",
-              "RelativeToolTip": "ApiService\\Models\\Lists\\PaginationModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:06:12.48Z",
+              "WhenOpened": "2026-01-12T00:08:47.775Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "20260103012557_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Migrations\\20260103012557_InitialCreate.cs",
-              "RelativeDocumentMoniker": "ApiService\\Migrations\\20260103012557_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Migrations\\20260103012557_InitialCreate.cs",
-              "RelativeToolTip": "ApiService\\Migrations\\20260103012557_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "ISessionHub.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Hubs\\ISessionHub.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Hubs\\ISessionHub.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Hubs\\ISessionHub.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Hubs\\ISessionHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T01:26:29.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "MongoDBConnection.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Databases\\MongoDBConnection.cs",
-              "RelativeDocumentMoniker": "ApiService\\Infra\\Databases\\MongoDBConnection.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Databases\\MongoDBConnection.cs",
-              "RelativeToolTip": "ApiService\\Infra\\Databases\\MongoDBConnection.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:27:05.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "MongoConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Databases\\MongoConfiguration.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Databases\\MongoConfiguration.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Databases\\MongoConfiguration.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Databases\\MongoConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:44:19.042Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ConnectionContext.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Databases\\ConnectionContext.cs",
-              "RelativeDocumentMoniker": "ApiService\\Infra\\Databases\\ConnectionContext.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Databases\\ConnectionContext.cs",
-              "RelativeToolTip": "ApiService\\Infra\\Databases\\ConnectionContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:26:39.427Z",
+              "WhenOpened": "2026-01-12T00:16:34.6Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IConnectionContext.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Databases\\IConnectionContext.cs",
-              "RelativeDocumentMoniker": "ApiService\\Domain\\Databases\\IConnectionContext.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Domain\\Databases\\IConnectionContext.cs",
-              "RelativeToolTip": "ApiService\\Domain\\Databases\\IConnectionContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SessionHub.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Hubs\\SessionHub.cs",
+              "RelativeDocumentMoniker": "ApiService\\Infra\\Hubs\\SessionHub.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Infra\\Hubs\\SessionHub.cs",
+              "RelativeToolTip": "ApiService\\Infra\\Hubs\\SessionHub.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T02:20:43.909Z"
+              "WhenOpened": "2026-01-12T00:16:06.6Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserCreateModel.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Models\\Users\\UserCreateModel.cs",
+              "RelativeDocumentMoniker": "ApiService\\Models\\Users\\UserCreateModel.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Models\\Users\\UserCreateModel.cs",
+              "RelativeToolTip": "ApiService\\Models\\Users\\UserCreateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:36:11.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cryptography.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\Cryptography.cs",
+              "RelativeDocumentMoniker": "Common\\Cryptography.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Common\\Cryptography.cs",
+              "RelativeToolTip": "Common\\Cryptography.cs",
+              "ViewState": "AgIAADoBAAAAAAAAAAAhwEYBAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:29:34.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserMappingCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\Caches\\UserMappingCacheService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Services\\Caches\\UserMappingCacheService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Services\\Caches\\UserMappingCacheService.cs",
+              "RelativeToolTip": "ApiService\\Services\\Caches\\UserMappingCacheService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAIAwwFYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:19:49.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserMappingCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Caches\\IUserMappingCacheService.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Caches\\IUserMappingCacheService.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Caches\\IUserMappingCacheService.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Caches\\IUserMappingCacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T00:19:28.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PermissionHandler.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Security\\PermissionHandler.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Security\\PermissionHandler.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Security\\PermissionHandler.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Security\\PermissionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:41:05.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PermissionRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Security\\PermissionRequirement.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Security\\PermissionRequirement.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Security\\PermissionRequirement.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Security\\PermissionRequirement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:40:35.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Users\\User.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Users\\User.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Users\\User.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Entities\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:29:27.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "AuthorizationGroupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupRepository.cs",
-              "RelativeDocumentMoniker": "ApiService\\Infra\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupRepository.cs",
-              "ToolTip": "C:\\Users\\miste\\source\\testes\\AspireTest\\ApiService\\Infra\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupRepository.cs",
-              "RelativeToolTip": "ApiService\\Infra\\Entities\\Authorizations\\AuthorizationGroups\\AuthorizationGroupRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Title": "UserMap.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Users\\UserMap.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Users\\UserMap.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Users\\UserMap.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Entities\\Users\\UserMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T00:25:51.979Z"
+              "WhenOpened": "2026-01-11T09:29:14.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserAdminMap.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Users\\UserAdminMap.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\AdminEntities\\Users\\UserAdminMap.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\AdminEntities\\Users\\UserAdminMap.cs",
+              "RelativeToolTip": "ApiService\\Domain\\AdminEntities\\Users\\UserAdminMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:28:46.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IAuthorizationGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\IAuthorizationGroupRepository.cs",
+              "RelativeDocumentMoniker": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\IAuthorizationGroupRepository.cs",
+              "ToolTip": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\IAuthorizationGroupRepository.cs",
+              "RelativeToolTip": "ApiService\\Domain\\Entities\\Auhtorizations\\AuthorizationGroups\\IAuthorizationGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:11:17.375Z",
+              "EditorCaption": ""
             }
           ]
         }

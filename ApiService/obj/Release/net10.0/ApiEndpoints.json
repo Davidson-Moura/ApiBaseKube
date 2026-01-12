@@ -1,0 +1,148 @@
+[
+  {
+    "ContainingType": "ApiService.Controllers.Security.AuthenticationController",
+    "Method": "AdminLogin",
+    "RelativePath": "Authentication/AdminLogin/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "ApiService.Models.Users.UserLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Security.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "Authentication/Login/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "ApiService.Models.Users.UserLoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Security.AuthenticationController",
+    "Method": "Logout",
+    "RelativePath": "Authentication/Logout/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DistAplication.Controllers.Dashboards.MenuController",
+    "Method": "CountMainMenus",
+    "RelativePath": "Menu/CountMainMenus/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DistAplication.Controllers.Dashboards.MenuController",
+    "Method": "MainMenus",
+    "RelativePath": "Menu/MainMenus/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Security.SystemController",
+    "Method": "Define",
+    "RelativePath": "System/Define/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Entities.Users.UserController",
+    "Method": "Add",
+    "RelativePath": "User/{id}/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Entities.Users.UserController",
+    "Method": "GetAll",
+    "RelativePath": "User/v1",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Entities.Users.UserController",
+    "Method": "Add",
+    "RelativePath": "User/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ApiService.Models.Users.UserCreateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiService.Controllers.Entities.Users.UserController",
+    "Method": "Update",
+    "RelativePath": "User/v1",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ApiService.Domain.Entities.Users.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

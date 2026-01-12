@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Localization;
 using ApiService.Definitions;
 using Common.Messages;
+using ApiService.Infra.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,10 +37,19 @@ app.UseSwaggerUI(c =>
 });
 
 app.UseHttpLogging();
+app.UseCors(x =>
+{
+    x.SetIsOriginAllowed(orgin => true);
+    x.AllowAnyHeader();
+    x.AllowAnyMethod();
+    x.AllowCredentials();
+});
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapFallbackToFile("index.html");
+app.MapHub<SessionHub>("/SessionHub");
 app.MapHealthChecks("/health").AllowAnonymous();
 
 app.Run();

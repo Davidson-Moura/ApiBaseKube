@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xo8GRvnU5OI=",
+  "dgSpecHash": "QWTWocF+b94=",
   "success": true,
-  "projectFilePath": "C:\\Users\\miste\\source\\testes\\AspireTest\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\miste\\source\\repos\\ApiBaseKube\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miste\\.nuget\\packages\\aspire.stackexchange.redis\\13.1.0\\aspire.stackexchange.redis.13.1.0.nupkg.sha512",
     "C:\\Users\\miste\\.nuget\\packages\\aspire.stackexchange.redis.outputcaching\\13.1.0\\aspire.stackexchange.redis.outputcaching.13.1.0.nupkg.sha512",
     "C:\\Users\\miste\\.nuget\\packages\\aspnetcore.healthchecks.redis\\9.0.0\\aspnetcore.healthchecks.redis.9.0.0.nupkg.sha512",
-    "C:\\Users\\miste\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.1\\microsoft.aspnetcore.app.internal.assets.10.0.1.nupkg.sha512",
     "C:\\Users\\miste\\.nuget\\packages\\microsoft.aspnetcore.outputcaching.stackexchangeredis\\10.0.1\\microsoft.aspnetcore.outputcaching.stackexchangeredis.10.0.1.nupkg.sha512",
     "C:\\Users\\miste\\.nuget\\packages\\microsoft.extensions.ambientmetadata.application\\10.1.0\\microsoft.extensions.ambientmetadata.application.10.1.0.nupkg.sha512",
     "C:\\Users\\miste\\.nuget\\packages\\microsoft.extensions.compliance.abstractions\\10.1.0\\microsoft.extensions.compliance.abstractions.10.1.0.nupkg.sha512",

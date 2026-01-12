@@ -1,0 +1,97 @@
+.v-theme--customTheme{
+    --v-theme-primary: 255, 252, 255, 1;
+    --v-theme-surface: 255, 252, 255, 1;
+    --v-theme-secondary: 26, 60, 119, 1;
+    
+    --v-theme-on-surface: 0, 0, 0, 1;
+    --v-theme-on-secondary: 0, 0, 0, 1;
+    --v-theme-on-background: 0, 0, 0, 1;
+    --v-font-color: 0, 0, 0, 1;
+
+    --v-theme-success: 40, 167, 69, 1;
+    --v-theme-on-success: 0, 0, 0, 1;
+
+    --v-theme-error: 226, 0, 3, 1;
+    --v-theme-on-error: 0, 0, 0, 1;
+
+    --v-theme-info: 23, 162, 184, 1;
+    --v-theme-surface-light: 23, 162, 184, 1;
+    --v-theme-on-info: 0, 0, 0, 1;
+
+    --v-theme-warning: 255, 193, 7, 1;
+    --v-theme-on-warning: 0, 0, 0, 1;
+ 
+    --primary-background-color: 226, 223, 226, 1;
+    --secondary-background-color: 226, 223, 226, 1;
+}
+
+.v-messages__message, 
+.v-field-label,
+.v-field--variant-solo, .v-field--variant-solo-filled,
+.v-card--variant-flat,
+.v-app-bar.v-toolbar,
+.v-navigation-drawer,
+.v-list,
+.v-counter,
+.v-sheet,
+.v-card--variant-elevated,
+.bg-primary,
+
+
+
+.apexcharts-tooltip.apexcharts-theme-dark
+{
+    color: rgb(var(--v-theme-on-surface)) !important;
+}
+
+.apexcharts-toolbar,
+.apexcharts-legend-text,
+.apexcharts-title-text,
+.apexcharts-text,
+.apexcharts-yaxis-label 
+{
+    color: rgb(var(--v-theme-on-surface)) !important;
+    fill: rgb(var(--v-theme-on-surface)) !important;
+}
+
+.apexcharts-active,
+.apexcharts-tooltip-title,
+.apexcharts-tooltip-title,
+.apexcharts-menu,
+.apexcharts-menu-item{
+    background: rgba(var(--v-theme-primary)) !important;
+}
+
+.hidden-scroll > *{
+    scrollbar-width: none !important;
+}
+@media screen and (max-width: 1023px) {
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+pre {
+    background-color: #282c34; /* Fundo escuro */
+    color: #abb2bf; /* Cor do texto */
+    font-family: "Fira Code", monospace; /* Fonte monoespaçada */
+    padding: 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #3c3f41;
+}
+
+.v-application {
+    background: linear-gradient(135deg, rgba(var(--primary-background-color)), rgba(var(--secondary-background-color)));
+}
+
+.v-navigation-drawer__content{
+    scrollbar-width: thin;
+}
+
+
+

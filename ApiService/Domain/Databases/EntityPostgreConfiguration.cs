@@ -4,7 +4,7 @@ using ApiService.Domain.Entities;
 
 namespace ApiService.Domain.Databases
 {
-    public abstract class EntityPostgreConfiguration<T> : IEntityTypeConfiguration<T> where T : PostegresEntity
+    public abstract class EntityPostgreConfiguration<T> : IEntityTypeConfiguration<T> where T : PostgresEntity
     {
         public void Configure(EntityTypeBuilder<T> builder)
         {
@@ -12,6 +12,9 @@ namespace ApiService.Domain.Databases
             builder.Property(x => x.Id)
                    .HasColumnType("uuid")
                    .HasDefaultValueSql("gen_random_uuid()");
+
+            builder.Property(x => x.TenantId)
+                   .HasColumnType("uuid");
 
             builder.Property(x => x.CreateDate).HasColumnType("timestamp with time zone").HasDefaultValueSql("now()").IsRequired();
             builder.Property(x => x.UpdateDate).HasColumnType("timestamp with time zone").HasDefaultValueSql("now()");

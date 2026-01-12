@@ -7,6 +7,8 @@ namespace ApiService.Definitions
         internal const string DefaultHiddenPassword = "******";
         internal const int MaxEntityPerRequest = 10000;
 
+        internal static Guid AdminTenantId { get => Guid.Parse("11111111-1111-1111-1111-111111111111"); }
+
         internal static OSPlatform OSPlatform { get; private set; }
         internal static void SetOSPlatform()
         {

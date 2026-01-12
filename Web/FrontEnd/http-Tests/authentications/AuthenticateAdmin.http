@@ -1,0 +1,8 @@
+###
+POST {{host}}v1/AdministrationAuthenticate/Login 
+content-Type: application/json
+
+{
+    "Nickname": "admin",
+    "Password": "adminR7T4S1B345879"
+}

@@ -4,7 +4,7 @@ namespace ApiService.Models.Users
 {
     public class UserCreateModel : User
     {
-        public string Password { get => base.Password; set => base.Password = value; }
-        public string ConfirmPassword { get; set; }
+        public new string Password { get => base.Password; set => base.Password = value; }
+        public string? ConfirmPassword { get; set; }
     }
 }

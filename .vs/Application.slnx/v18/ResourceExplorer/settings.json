@@ -13,6 +13,7 @@
   ],
   "VisibleColumnKeys": [
     "name",
+    "en-US",
     "neutral-value"
   ]
 }

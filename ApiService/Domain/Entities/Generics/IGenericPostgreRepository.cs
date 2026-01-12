@@ -1,10 +1,9 @@
-﻿using ApiService.Infra.Entities.Generics;
-using ApiService.Models.Lists;
+﻿using ApiService.Models.Lists;
 using System.Linq.Expressions;
 
 namespace ApiService.Domain.Entities.Generics
 {
-    public interface IGenericPostgreRepository<T> where T : PostegresEntity, new()
+    public interface IGenericPostgreRepository<T> where T : PostgresEntity, new()
     {
         Task<PaginationModel<T>> GetPagedAsync(PGFilterBase<T> filter);
         Task<T> GetByKey(Guid id);
